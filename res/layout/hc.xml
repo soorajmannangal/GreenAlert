@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1" android:gravity="fill_horizontal" >
+    <AbsoluteLayout android:layout_height="wrap_content" android:id="@+id/AbsoluteLayout1" android:layout_width="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_clean"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:layout_x="181dp"
+            android:layout_y="74dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/clean" >
+</ImageView>
+
+        <ImageView
+            android:id="@+id/image_help"
+            android:layout_width="98dp"
+            android:layout_height="98dp"
+            android:layout_x="49dp"
+            android:layout_y="71dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/policeman" >
+
+</ImageView>
+
+        <ImageView
+            android:id="@+id/image_hospital"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_x="31dp"
+            android:layout_y="206dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ambulance" >
+</ImageView>
+
+        <ImageView
+            android:id="@+id/image_fire"
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:layout_x="172dp"
+            android:layout_y="208dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/fire" >
+</ImageView>
+       </AbsoluteLayout>
+       <AbsoluteLayout android:layout_height="46dp" android:layout_gravity="bottom" android:id="@+id/AbsoluteLayout1" android:layout_marginBottom="10dp" android:layout_width="match_parent">
+
+           <ImageView
+               android:id="@+id/imageView_settngs"
+               android:layout_width="40dp"
+               android:layout_height="wrap_content"
+               android:layout_x="20dp"
+               android:layout_y="8dp"
+               android:clickable="true"
+               android:paddingLeft="0dp"
+               android:src="@drawable/set" >
+</ImageView>
+       </AbsoluteLayout>
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="TextView"
+           android:textAppearance="?android:attr/textAppearanceSmall" />
+   
+   </FrameLayout>

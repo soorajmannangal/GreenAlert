@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to, Green_Alert!</string>
+    <string name="app_name">GreenAlert</string>
+    <string-array name="contactType">
+        <item>Help Me </item>
+        <item>Hospital/Ambulance</item>
+        <item>Fire_Force</item>
+        <item >Cleaning</item>
+    </string-array>
+
+</resources>

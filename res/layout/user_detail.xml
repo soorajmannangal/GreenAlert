@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:id="@+id/absoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="7dp"
+            android:layout_y="114dp"
+            android:text="Your Name Pls ..."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_x="12dp"
+            android:layout_y="147dp"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_x="113dp"
+            android:layout_y="246dp"
+            android:src="@drawable/next" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>
